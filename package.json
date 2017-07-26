@@ -6,6 +6,12 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Igor Arkhipenko", 
-  "license": "MIT"
+  "author": "Igor Arkhipenko",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.3",
+    "webpack": "^3.4.1",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-hot-middleware": "^2.18.2"
+  }
 }
